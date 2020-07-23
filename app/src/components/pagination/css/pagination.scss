@@ -1,0 +1,27 @@
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination_btn {
+    font-size: 20px;
+    line-height: 22px;
+    background-color: transparent;
+    cursor: pointer;
+    
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+
+    &:hover {
+        border-color: rgb(200, 200, 200);
+    }
+}
+
+.pagination_btn--current {
+    color: white;
+    background-color: rgb(100, 100, 100);
+
+    &:hover {
+        border-color: rgb(100, 100, 100);
+    }
+}
